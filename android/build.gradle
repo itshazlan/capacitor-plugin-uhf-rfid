@@ -55,4 +55,18 @@ dependencies {
     testImplementation "junit:junit:$junitVersion"
     androidTestImplementation "androidx.test.ext:junit:$androidxJunitVersion"
     androidTestImplementation "androidx.test.espresso:espresso-core:$androidxEspressoCoreVersion"
+    implementation files('libs/API_2.jar')
+    implementation files('libs/classes.jar')
+    implementation files('libs/cw-deviceapi20190214.jar')
+    implementation files('libs/device.jar')
+    implementation files('libs/hitownsdk.jar')
+    implementation files('libs/jxl.jar')
+    implementation files('libs/kaicomUHF.jar')
+    implementation files('libs/Module_Android_Power.jar')
+    implementation files('libs/ModuleAPI_J.jar')
+    implementation files('libs/PosApi_X5_V1.03_20190710.jar')
+    implementation files('libs/trinea-android-common.jar')
+    implementation files('libs/UHFDevice.jar')
+    implementation files('libs/iodev2.jar')
+    implementation 'com.google.code.gson:gson:2.8.7'
 }
